@@ -34,7 +34,7 @@ function App() {
                 required
                 placeholder='Informe o atual preço do álcool por litro...'
                 value={alcoolInput}
-                onChange={(e) => setAlcoolInput(Number(e.target.value))}
+                onChange={(event) => setAlcoolInput(Number(event.target.value))}
               />
           </section>
           <section className='input-container'>
@@ -47,7 +47,7 @@ function App() {
                 required
                 placeholder='Informe o atual preço da gasolina por litro...'
                 value={gasolinaInput}
-                onChange={(e) => setGasolinaInput(Number(e.target.value))}
+                onChange={(event) => setGasolinaInput(Number(event.target.value))}
               />
           </section>
         </div>

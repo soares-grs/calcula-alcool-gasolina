@@ -1,8 +1,13 @@
-# React + Vite
+# Calculadora de Combustível - React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples desenvolvido para praticar habilidades em React JS. A aplicação consiste em uma calculadora de combustível que ajuda os usuários a decidirem se devem abastecer com gasolina ou álcool, com base nos preços informados pelos usuários.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Os usuários podem inserir o preço da gasolina e o preço do álcool.
+- Com base nos preços informados, a aplicação calcula e exibe qual dos dois combustíveis é a melhor opção em termos de custo-benefício.
+- A aplicação informa se a gasolina ou o álcool é a escolha mais econômica com base na relação entre os preços.
+
+## Deploy
+
+[calcula-alcool-gasolina.vercel.app](https://calcula-alcool-gasolina.vercel.app/)
